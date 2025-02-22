@@ -15,7 +15,7 @@ import Page6 from "./_components/Page6";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 900,
       // once: false,
     });
   }, []);

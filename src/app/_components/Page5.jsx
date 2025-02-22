@@ -6,18 +6,18 @@ const Page5 = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
         {/* Left Section */}
         <div className="flex flex-col items-center md:items-start">
-          <div className="grid grid-cols-2 gap-6 w-full max-w-md">
+          <div className="grid grid-cols-2 gap-10 w-full max-w-md">
             <img
               data-aos="fade-up"
               src="image7.png"
               alt="Image 1"
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-[350px] object-cover rounded-lg"
             />
             <img
               data-aos="fade-up"
               src="image8.png"
               alt="Image 2"
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-[350px] object-cover rounded-lg"
             />
           </div>
         </div>
